@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'BPG Glaho';
+    src: url('../Fonts/BPGGlaho.eot');
+    src: url('../Fonts/BPGGlaho.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/BPGGlaho.woff2') format('woff2'),
+        url('../Fonts/BPGGlaho.woff') format('woff'),
+        url('../Fonts/BPGGlaho.ttf') format('truetype'),
+        url('../Fonts/BPGGlaho.svg#BPGGlaho') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family: 'BPG Glaho'
+}
+.padding{
+    width: 90%;
+    padding: 5%;
+    background-color: #F9F7F9;
+}
+.top-container img{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+.top-container h1{
+    font-size: 32px;
+}
+.top-container p{
+    font-size: 15px;
+}
+.top-container:after{
+    clear: both;
+    display: block;
+    content: "";
+}
+.text1 {
+    padding-top: 5%;
+    line-height: 25px;
+    font-weight: bold;
+}
+.text2 {
+    padding-top: 5%;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: right;
+}
+.padding2{
+    width: 90%;
+    padding: 5%;
+    background-color: #E6E6E6;
+}
+.bottom-container h1{
+    font-size: 32px;
+}
+.bottom-container p{
+    margin-top: 5%;
+    font-size: 15px;
+}
+.bottom-container img{
+    float: right;
+    width: 30%;
+    margin-left: 5%;
+}
+.bottom-container:after{
+    clear: both;
+    display: block;
+    content: "";
+}
