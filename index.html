@@ -1,41 +1,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Fluid Canvas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive</title>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
-<link rel="stylesheet" type="text/css" href="styles/reset.css">
-<link rel="stylesheet" type="text/css" href="styles/styles.css">
-<body class="body">
-	<main>
-		<div class="padding">
-			<section class="top-container">
-				<img src="images/image-1.png">
-				<div class="text1">		
-					<h1>ინტერნეტი:</h1><br>
-					<p>	ინტერნეტი წარმოადგენს ერთ დიდ ქსელს; 
-						მილიონობით კომპიუტერების ერთმანეთთან დამაკავშირებელ ქსელს, რომლის მეშვეობითაც შესაძლებელია ინფორმაციის გაზიარება და გადაცემა. როგორც მაგალითად, ელექტრონული ფოსტის გაგზავნა ან ვებგვერდების ნახვა.
-					</p>
-					<br>
-					<p>
-						ინტერნეტი ინფორმაციის გაცვლის ერთერთი ყველაზე პოპულარული საშუალებაა დღეს.
-					</p>
-					<br>
-					<p>
-						ეს პროცესი ხორციელდება სხვადასხვა პროტოკოლებისა და ენების მეშვეობით. (პროტოკოლები იხ. დაბლა)
-					</p>
+<body>
+	<header class="main-header">
+		<div class="container">
+			<div class="logo">
+				<img src="images/logo.svg">
+			</div>	
+			<nav class="main-navigation">
+				<li><a href="#" class="home">home</a></li>
+				<li><a href="#">news</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">contact</a></li>
+			</nav>
+			<div class="social-icon">
+				<a href="#"><img src="images/G+.svg" alt="G+"></a>
+				<a href="#"><img src="images/fb.svg" alt="fb"></a>
+				<a href="#"><img src="images/youtube.svg" alt="yt"></a>
+			</div>
+			<div class="search-box">
+				<img src="images/search.svg" alt="search">
+			</div>
+				<a href="#">	
+					<div class="burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</a>	
+		</div>	
+	</header>
+	<main class="main">
+			<div class="image-container">
+				<img class="baner"src="images/banner.jpg" alt="banner">
+				<div class="switch">	
+					<a href="#"><img class="left" src="images/left.svg"></a>
+					<a href="#"><img class="right" src="images/right.svg"></a>
 				</div>	
-			</section>
-		</div>
-		<div class="padding2">
-			<section class="bottom-container">
-				<img src="images/image-2.png">
-				<div class="text2">
-					<h1>ვები:</h1>
-					<p>ვები კი ინფორმაციის ერთობლიობაა, რომლელზეც წვდომა ინტერნეტის მეშვეობით არის შესაძლებელი<br>
-					World wide web | www</p>
+				<div class="text-container">
+					<h2>things aren't always</h2>
+					<p>#00000</p>
+					<p>or </p>
+					<p>#fffff </p>
 				</div>
-			</section>
-		</div>
+				<img class="minilogo" src="images/minilogo.png" alt="minilogo">
+			</div>
+		<section class="video-container">
+			<div class="container">
+				<div class="video-header">
+					<h2 class="header">VIDEOS | <a href="#">view all videos</a></h2>
+					<div class="video-box left-video">
+						<h2>embeded youtube video goes here</h2>
+					</div>
+					<div class="video-box right-video">
+						<h2>embeded youtube video goes here</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="article-container">
+			<h2 class="header">NEWS | <a href="#"> view all news</a></h2>
+			<div class="padding">
+				<article class="typo article">
+					<img src="images/typography.jpg">
+					<div class="article-animation">
+						<h2>tyopgraphy lab</h2>
+					</div>	
+				</article>
+				<article class="pc article">
+					<img src="images/pc.jpg">
+					<div class="article-animation">
+						<h2>online marketing</h2>		
+					</div>
+				</article>
+				<article class="c-sharp article">
+					<img src="images/c-sharp.jpg">
+					<div class="article-animation">
+						<h2>c# coding</h2>
+					</div>    		
+				</article>
+				<article class="interface article">
+					<img src="images/interface.jpg">
+					<div class="article-animation">
+						<h2>interface coding</h2>
+					</div>	
+				</article>
+			</div>	
+		</section>
+		<section class="featured-container">
+			<h2 class="header">FEATURED | <a href="#">view all featured media</a></h2>
+			<div class="padding">
+					<article class="featured-news left-news">
+						<h2>responsive web design</h2>
+						<img src="images/touch.svg">
+						<p class="content">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+						<p class="more"><a href="#">read more</a></p>
+					</article>
+					<article class="featured-news right-news">
+						<h2>app development</h2>
+						<img src="images/mobile.svg">
+						<p class="content content2">Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system.</p>
+						<p class="more"><a href="#">read more</a></p>
+					</article>
+			</div>	
+		</section>
 	</main>
+	<footer class="main-footer">
+		<div class="footer-container">
+			<h2>©2017 hyper text murkup language</h2>
+			<h2>created by:Ioseb</h2>
+		</div>
+	</footer>
 </body>
 </html>
