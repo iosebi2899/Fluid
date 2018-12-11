@@ -181,10 +181,10 @@
 	text-decoration: none;
 	color:black;
 }
-.article-container .article h2{
+.article-container .padding .article h2{
 	text-transform: uppercase;
 	font-family:  'Roboto-regular',sans-serif;
-	font-size:22px;
+	font-size:1.5vw;
 	
 }
 .article-animation{
@@ -395,3 +395,25 @@
 	}
 
 }
+@media (max-width:768px){
+	.main-header .container .social-icon {
+		display: none;
+	}
+	.main-header .container .search-box{
+		margin-left: 70%;
+	}
+	.
+	.article-animation{
+		width: 110.5%;
+	}
+	.article-animation {
+		font-size: 2vw;
+	}
+	.article-container .padding{
+		display: block;
+	}
+	.article-container .padding .article{
+		width: 94%;
+		margin-bottom: 5%;
+	}
+} 
