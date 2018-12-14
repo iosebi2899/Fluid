@@ -373,17 +373,21 @@
 	margin-left: 43%;
 	padding-bottom: 2%;
 }
-.background{
-	background-color: white;
+.choose .background{
+	text-decoration:none;
+	display: inline-block;
+	border: 2px solid white;
+	padding: 10px;
+	margin-left: 2%;
+	background-color:white;
 }
-.choose a{
+.choose .background2{
 	text-decoration:none;
 	display: inline-block;
 	border: 2px solid white;
 	padding: 10px;
 	margin-left: 2%;
 }
-
 /*news hovers*/
 	.background2:hover {
 		background-color: white;
