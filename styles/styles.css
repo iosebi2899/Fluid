@@ -360,13 +360,14 @@
 }
 .load-more h2{
 	width: 100%;
-	text-transform: uppercase;
-	font-family: 'Roboto-bold';
+	
 }
 .load-more h2 a{
 	font-size: 16px;
 	color: white;
 	text-decoration:none;
+	text-transform: uppercase;
+	font-family: 'Roboto-bold';
 }
 .choose {
 	margin-left: 43%;
